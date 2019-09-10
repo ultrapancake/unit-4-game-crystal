@@ -10,18 +10,20 @@ body{
 
 .cont-1{
     background-color: #3E0F60;
-    color: #FEF2E2; 
+    color: #EEEEEE; 
 }
 .cont-2{
-    background-color: #FEF2E2;
+    background-color: #EEEEEE;
     color: #3E0F60;
 }
 h1{
     font-size: 72px;
     font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
 }
 p{
     font-size: 24px;
+    font-family: 'Orbitron', sans-serif;
 }
 .rock{
     width: 200px;
