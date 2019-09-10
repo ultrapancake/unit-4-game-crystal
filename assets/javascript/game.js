@@ -40,6 +40,7 @@ $(document).ready(function () {
             if (counter === randNum) {
                 wins++;
                 $(".wins").html("Wins: " + wins);
+                $(".result").html("W I N N E R !");
                 // Reset on Win
                 $("#rocks").empty();
                 rockNum();
@@ -47,6 +48,7 @@ $(document).ready(function () {
             } else if (counter >= randNum) {
                 losses++;
                 $(".losses").html("Losses: " + losses);
+                $(".result").html("L O S E R !")
                 // Reset on Loss
                 $("#rocks").empty();
                 rockNum();

@@ -6,6 +6,7 @@ body{
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .cont-1{
@@ -19,11 +20,13 @@ body{
 h1{
     font-size: 72px;
     font-weight: bold;
-    font-family: 'Orbitron', sans-serif;
+}
+h2{
+    font-size: 48px;
+    font-weight: bold;
 }
 p{
     font-size: 24px;
-    font-family: 'Orbitron', sans-serif;
 }
 .rock{
     width: 200px;
