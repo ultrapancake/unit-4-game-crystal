@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.cont-1{
+    background-color: #3E0F60;
+    color: #FEF2E2; 
+}
+.cont-2{
+    background-color: #FEF2E2;
+    color: #3E0F60;
+}
+h1{
+    font-size: 72px;
+    font-weight: bold;
+}
+p{
+    font-size: 24px;
+}
+.rock{
+    width: 200px;
+    height: 200px;
+}

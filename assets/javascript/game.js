@@ -10,7 +10,7 @@ $(document).ready(function () {
     function rockNum() {
         for (var i = 0; i < rockImages.length; i++) {
             var rock = $("<img>");
-            rock.addClass("rock-button rock rock-img");
+            rock.addClass("rock-button rock");
             rock.attr("src", rockImages[i]);
             rock.attr("data-letter", Math.floor(Math.random() * 11) + 1);
             $("#rocks").append(rock);
