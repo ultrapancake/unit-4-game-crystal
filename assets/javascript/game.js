@@ -12,13 +12,20 @@ $(document).ready(function () {
             var rock = $("<img>");
             rock.addClass("rock-button rock rock-img");
             rock.attr("src", rockImages[i]);
-            rock.atter("data-letter", Math.floor(Math.random() * 11) + 1);
+            rock.attr("data-letter", Math.floor(Math.random() * 11) + 1);
             $("#rocks").append(rock);
         }
     };
 
-    //On click function
-    function onClick() {
+    function game() {
+        // variables
+        var counter = 0;
+        $(".guess-user").html("Current points: " + counter);
+        // Random Number Generation
+        var randNum = Math.floor(Math.random() * (111 - 3) + 3);
+        $(".guess-num").html("Target Number: " + randNum);
+        console.log(randNum);
+        // run onClick function
         $(".rock-button").on("click", function () {
             // variables
             rockClicked = true;
@@ -46,17 +53,6 @@ $(document).ready(function () {
                 game();
             };
         });
-    };
-    function game() {
-        // variables
-        var counter = 0;
-        $(".guess-user").html("Current points: " + counter);
-        // Random Number Generation
-        var randNum = Math.floor(Math.random() * (111 - 3) + 3);
-        $(".guess-num").html("Target Number: " + randNum);
-        console.log(randNum);
-        // run onClick function
-        onClick();
     }
     // Generate Rocks
     rockNum();
