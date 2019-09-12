@@ -4,7 +4,7 @@ $(document).ready(function () {
     var wins = 0;
     var losses = 0;
     //rock jpgs in an array with the source route steming from the HTML file, not the javaScript file.
-    var rockImages = ["assets/images/rock_1.jpg", "assets/images/rock_2.jpg", "assets/images/rock_3.jpg", "assets/images/rock_4.jpg"];
+    var rockImages = ["assets/images/rock_1.png", "assets/images/rock_2.png", "assets/images/rock_3.png", "assets/images/rock_4.png"];
 
     //Random Number generation for each different rock image, and create all classes and locations for rock images
     function rockNum() {
